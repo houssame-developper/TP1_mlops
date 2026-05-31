@@ -1,0 +1,8 @@
+
+dbt_pipeline:
+  outputs:
+    dev:
+      type: duckdb
+      path: /content/ventes.duckdb
+      schema: main
+  target: dev
